@@ -1,0 +1,30 @@
+/* Nav.css */
+
+.nav_bar {
+  background-color: #333;
+  padding: 10px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.nav_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav_item {
+  margin-right: 20px;
+}
+
+.nav_link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav_link:hover {
+  text-decoration: underline;
+}
